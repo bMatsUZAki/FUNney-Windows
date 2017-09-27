@@ -13,7 +13,7 @@
             <ColumnDefinition Width="auto"/>
             <ColumnDefinition Width="1*"/>
         </Grid.ColumnDefinitions>
-        <TextBlock HorizontalAlignment="Left" Margin="204,90,0,0" TextWrapping="Wrap" Text="××××さんではありませんか？" FontSize="20" VerticalAlignment="Top" Grid.ColumnSpan="3" Width="233"/>
+        <TextBlock HorizontalAlignment="Left" Margin="204,90,0,0" TextWrapping="Wrap" Text="××××さんですよね？" FontSize="20" VerticalAlignment="Top" Grid.ColumnSpan="3" Width="233" SelectionChanged="TextBlock_SelectionChanged"/>
         <Button Background="White" Content="ログアウト"  FontSize="18" HorizontalAlignment="Left" Margin="254,212,0,0" VerticalAlignment="Top" Grid.ColumnSpan="3" Width="127"/>
         <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="36" Margin="254,212,0,0" VerticalAlignment="Top" Width="127" Grid.ColumnSpan="3"/>
     </Grid>
